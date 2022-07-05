@@ -1,0 +1,23 @@
+//write a c program to display user input...
+#include<stdio.h>
+#include<stdlib.h>
+int main(){
+int a;
+char ch;
+float real_value;
+unsigned int b;
+printf("Enter an integer value:");
+scanf("%d",&a);
+fflush(stdin);
+printf("Enter a character:");
+scanf("%c",&ch);
+printf("Enter a float value:");
+scanf("%f",&real_value);
+printf("Enter a unsigned value:");
+scanf("%i",&b);
+printf("\nInterger:%d",a);
+printf("\nCharacter:%c",ch);
+printf("\nFloat value:%f",real_value);//Actually in c language float value has by default 6 decimal value
+printf("\nUnsigned integer:%i",b);
+return 0;
+}
