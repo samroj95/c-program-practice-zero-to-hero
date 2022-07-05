@@ -1,0 +1,10 @@
+/*write a program to multiplie two number..*/
+#include<stdio.h>
+int main(){
+int num1,num2,multiple;
+printf("Enter two number for multiple two number:");
+scanf("%d%d",&num1,&num2);
+multiple=num1*num2;
+printf("multpled of two number:%d",multiple);
+return 0;
+}
