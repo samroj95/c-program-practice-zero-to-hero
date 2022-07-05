@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+int num1,num2,subtract;
+//we have to first take two element from user
+printf("Enter two number for subtract:");
+scanf("%d%d",&num1,&num2);
+//now we can subtract between two number and store in the subtract(var)...
+subtract=num1-num2;
+printf("subtract:%d",subtract);
+return 0;
+}
