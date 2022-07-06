@@ -1,0 +1,17 @@
+//Write a c program to find reminder between two number..
+#include<stdio.h>
+int main(){
+float num1,num2,reminder;
+printf("Enter two number:");
+scanf("%f%f",&num1,&num2);
+/*If we perform mod (% reminder) of float value and numerator is smaller than denominator then answer will always be numerator it self*/
+/* example..
+small numerator % greater denominator=small numerator..
+1).1%2=1;why output is 1 because our nemerator is smaller than denominator ( 1<2=0 )
+2).2%1=0;
+3).3%2=1; why output is 1 because when we divide 3 from 2 then reminder will be 1;
+4).10%10=0;*/
+reminder=num1%num2;
+printf("Reminder:%f",reminder);
+return 0;
+}
