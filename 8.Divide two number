@@ -1,0 +1,17 @@
+//write a c program to divide two number...
+#include<stdio.h>
+int main()
+{
+int num1,num2,divide;
+//Take input 2 integer value from user...
+printf("Enter two number for divide:");
+scanf("%d%d",&num1,&num1);
+
+/*some important notes regarding division operator(/)
+if we divide a smaller value with greater value and both are integer then the resultant answer will always zero (0)
+means if numerator is smaller than denominator then output will be 0(zero).Example-1/2=0;*/
+
+divide=num1/num2;
+printf("Divide:%d",divide);
+return 0;
+}
