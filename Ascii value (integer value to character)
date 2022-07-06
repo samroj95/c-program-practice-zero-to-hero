@@ -1,0 +1,9 @@
+//write a c program to find character from integer value..
+#include<stdio.h>
+int main(){
+int num;
+printf("Enter an integer number:");
+scanf("%d",&num);
+printf("Integer value of ascii %d\n Character:%c",num,num);
+return 0;
+}
